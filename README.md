@@ -78,9 +78,9 @@ In-Memory Data Store
 ![Dashboard](./screenshots/dashboard-firstpage.png)
 ![Dashboard](./screenshots/dashboard-secondpage.png)
 
-### Search, Filter and Sorting
+### Search, Filter and Sort
 
-![Search and Filter](./screenshots/search-filter-sort.png)
+![Search, Filter and Sort](./screenshots/search-filter-sort.png)
 
 ### Create Issue
 
@@ -88,7 +88,7 @@ In-Memory Data Store
 
 ### Update Issue
 
-![Create Issue](./screenshots/update-issue.png)
+![Update Issue](./screenshots/update-issue.png)
 
 ---
 
