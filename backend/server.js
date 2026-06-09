@@ -10,22 +10,94 @@ app.use(express.json());
 let issues = [
     {
     id: 1,
-    title: "Login button not working",
-    description: "User cannot click login button on Chrome",
-    priority: "high",
+    title: "Login page validation bug",
+    description: "Email validation does not trigger correctly.",
     status: "open",
-    assignee: "Esther",
-    createdAt: "2026-05-20T10:00:00.000Z",
-  },
-  {
+    priority: "high",
+    assignee: "Alice",
+    createdAt: "2026-06-01"
+    },
+    {
     id: 2,
-    title: "Dashboard loading slowly",
-    description: "The issue table takes too long to load",
+    title: "Broken image on dashboard",
+    description: "Hero banner image fails to load intermittently.",
+    status: "in progress",
     priority: "medium",
-    status: "in_progress",
-    assignee: "Alex",
-    createdAt: "2026-05-21T12:00:00.000Z",
-  },
+    assignee: "Bob",
+    createdAt: "2026-06-02"
+    },
+    {
+    id: 3,
+    title: "Search results not updating",
+    description: "Search input occasionally shows stale data.",
+    status: "open",
+    priority: "high",
+    assignee: "Charlie",
+    createdAt: "2026-06-02"
+    },
+    {
+    id: 4,
+    title: "Pagination UI alignment",
+    description: "Pagination buttons shift on smaller screens.",
+    status: "closed",
+    priority: "low",
+    assignee: "David",
+    createdAt: "2026-06-03"
+    },
+    {
+    id: 5,
+    title: "Dark mode support",
+    description: "Add dark theme option for users.",
+    status: "open",
+    priority: "medium",
+    assignee: "Emma",
+    createdAt: "2026-06-03"
+    },
+    {
+    id: 6,
+    title: "API timeout handling",
+    description: "Improve frontend error handling for API failures.",
+    status: "in progress",
+    priority: "high",
+    assignee: "Frank",
+    createdAt: "2026-06-04"
+    },
+    {
+    id: 7,
+    title: "Table sorting enhancement",
+    description: "Allow sorting by priority and status.",
+    status: "closed",
+    priority: "medium",
+    assignee: "Grace",
+    createdAt: "2026-06-04"
+    },
+    {
+    id: 8,
+    title: "Mobile layout issue",
+    description: "Issue table overflows on mobile devices.",
+    status: "open",
+    priority: "high",
+    assignee: "Henry",
+    createdAt: "2026-06-05"
+    },
+    {
+    id: 9,
+    title: "Duplicate issue creation",
+    description: "Users can accidentally create duplicate issues.",
+    status: "in progress",
+    priority: "medium",
+    assignee: "Ivy",
+    createdAt: "2026-06-05"
+    },
+    {
+    id: 10,
+    title: "Notification banner styling",
+    description: "Update banner colors to match design system.",
+    status: "closed",
+    priority: "low",
+    assignee: "Jack",
+    createdAt: "2026-06-06"
+    }
 ];
 
 app.get("/api/issues", (req, res) => {
