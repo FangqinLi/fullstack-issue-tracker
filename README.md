@@ -75,15 +75,20 @@ In-Memory Data Store
 
 ### Dashboard
 
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard-firstpage.png)
+![Dashboard](./screenshots/dashboard-secondpage.png)
 
-### Search and Filter
+### Search, Filter and Sorting
 
-![Search and Filter](./screenshots/search-filter.png)
+![Search and Filter](./screenshots/search-filter-sort.png)
 
 ### Create Issue
 
 ![Create Issue](./screenshots/create-issue.png)
+
+### Update Issue
+
+![Create Issue](./screenshots/update-issue.png)
 
 ---
 
